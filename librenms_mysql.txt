@@ -1,0 +1,8 @@
+mysql -u root -p
+CREATE DATABASE librenms CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'your_password_here';
+GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+
+http://ip.address/
