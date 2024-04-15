@@ -1,5 +1,8 @@
 #!/bin/bash
-
+#
+#         ========================  YouTube:  https://www.youtube.com/@linuxnetworkinghelp   =======================
+#
+#         =====================================  Please Subscribe   === 
 # Update system
 sudo apt update
 sudo apt upgrade -y
