@@ -5,7 +5,6 @@
 #         =====================================  Please Subscribe   === 
 # Update system
 sudo apt update
-sudo apt upgrade -y
 
 # Install dependencies
 sudo apt install -y apache2 composer fping git graphviz imagemagick libapache2-mod-php php php-cli php-curl php-fpm php-gd php-json php-mbstring php-mysql php-snmp php-xml php-zip python3-mysql.connector python3-pymysql python3-pyrrd rrdtool snmp snmpd whois
